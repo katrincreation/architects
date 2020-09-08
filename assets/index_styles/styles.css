@@ -38,10 +38,12 @@
    margin: 20px 40px 20px 40px;
  }
  p{
+   position: relative;
    font-size: 32px;
+   font-weight:normal ;
    max-width: 555px;
-   margin-left:700px;
-   margin-bottom: 100px;
+   left:740px;
+   top:100px;
  }
  p:hover{
    color:white;
@@ -72,6 +74,10 @@
  }
  .header-fixed{
    position: fixed;
-   left:0;
-   top:0;
+   left: 0;
+   top: 0;
+ }
+ .footer-sticky{
+    position: sticky;
+    padding: 200px 0px 0px 0px;
  }

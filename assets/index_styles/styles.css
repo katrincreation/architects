@@ -34,15 +34,13 @@
    background-color:rgba(29, 0, 207, 1);
    color:rgba(255, 156, 9, 1);
    font-family: Favorit Pro;
-   font-weight: bold;
-   margin: 20px 40px 20px 40px;
  }
  p{
    position: relative;
    font-size: 32px;
    font-weight:normal ;
    max-width: 555px;
-   left:740px;
+   left:700px;
    top:100px;
  }
  p:hover{
@@ -69,12 +67,12 @@
  .header{
    width: 100%;
    font-size: 93px;
+   font-weight: bold;
    text-transform: uppercase;
-   text-align: right;
  }
  .header-fixed{
    position: fixed;
-   left: 0;
+   left: 700px;
    top: 0;
  }
  .footer-sticky{

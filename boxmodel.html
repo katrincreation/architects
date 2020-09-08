@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *,
+    *:after,
+    *:before{
+        box-sizing: border-box;
+    }
+    .child{
+      border: 10px dashed yellow;
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+    }
+    .child+.child{
+        margin-left: 30px;
+    }
+    .parent{
+        padding:50px;
+        display: flex;
+    }
+    </style>
+</head>
+<body>
+<div class=parent>
+    <div class="child"></div>
+    <div class="child"></div>
+    <div class="child"></div>
+</div>  
+</body>
+</html>

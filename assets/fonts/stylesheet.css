@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('FavoritPro-Bold.woff2') format('woff2'),
+        url('FavoritPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('FavoritPro-BoldItalic.woff2') format('woff2'),
+        url('FavoritPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('FavoritPro-Regular.woff2') format('woff2'),
+        url('FavoritPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Favorit Pro';
+    src: url('FavoritPro-Italic.woff2') format('woff2'),
+        url('FavoritPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

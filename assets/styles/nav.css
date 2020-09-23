@@ -1,0 +1,40 @@
+
+nav{
+    position: fixed;
+    left: 40px;
+    right: 40px;
+    top: 20px;
+  }
+  .nav-list{
+    font-size: 57px;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  a,
+  a:visited{
+    color: black;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  a:hover{
+    font-style: italic;
+  }
+  
+  .nav-index:hover{
+   color: rgba(5, 165, 105, 1)
+  }
+  .nav-projects:hover{
+    color: rgba(238, 79, 37, 1);
+  }
+  
+  .nav-info:hover{
+    color: rgba(246, 177, 206, 1);
+  }

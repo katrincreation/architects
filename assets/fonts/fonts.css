@@ -29,53 +29,5 @@
        font-weight: normal;
        font-style: italic;
        font-display: swap
-   }
-   body{
-   background-color:rgba(29, 0, 207, 1);
-   color:rgba(255, 156, 9, 1);
-   font-family: Favorit Pro;
- }
- p{
-   position: relative;
-   font-size: 32px;
-   font-weight:normal ;
-   max-width: 555px;
-   left:700px;
-   top:100px;
- }
- p:hover{
-   color:white;
-   font-style: italic;
- }
+}
 
- button{
-   box-sizing: border-box;
-   background:none;
-   border: 2px solid rgba(255, 156, 9, 1);
-   border-radius: 28px;
-   padding: 5px 25px 10px 25px;
-   text-align: center;
-   display: inline-block;
-   font-size: 32px;
-   color: rgba(255, 156, 9, 1);
-   margin-right: 40px;
- }
- button:hover{
-   background:rgba(255, 156, 9, 1);
-   color: rgba(29, 0, 207, 1);
- }
- .header{
-   width: 100%;
-   font-size: 93px;
-   font-weight: bold;
-   text-transform: uppercase;
- }
- .header-fixed{
-   position: fixed;
-   left: 700px;
-   top: 0;
- }
- .footer-sticky{
-    position: sticky;
-    padding: 200px 0px 0px 0px;
- }
